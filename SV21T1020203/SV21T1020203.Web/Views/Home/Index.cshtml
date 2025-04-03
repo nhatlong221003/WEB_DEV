@@ -1,0 +1,103 @@
+﻿
+@{
+    ViewBag.Title = "Quản lý bán hàng";
+}
+
+<div class="row">
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <h3>1,578</h3>
+                <p>Khách hàng</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-ios-people"></i>
+            </div>
+            <a href="~/Customer" class="small-box-footer">Chi tiết <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-green">
+            <div class="inner">
+                <h3>1,580,000 <small>VND</small></h3>
+                <p>Doanh thu trong tháng</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-cash"></i>
+            </div>
+            <a href="~/Order" class="small-box-footer">Chi tiết <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-yellow">
+            <div class="inner">
+                <h3>240,000 <small>VND</small></h3>
+                <p>Doanh thu trong ngày</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-cash"></i>
+            </div>
+            <a href="~/Order" class="small-box-footer">Chi tiết <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <div class="col-lg-3 col-xs-6">
+        <div class="small-box bg-red">
+            <div class="inner">
+                <h3>65</h3>
+                <p>Đơn hàng chờ xử lý</p>
+            </div>
+            <div class="icon">
+                <i class="ion ion-android-cart"></i>
+            </div>
+            <a href="~/Order" class="small-box-footer">Chi tiết <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="box box-info">
+            <div class="box-header with-border">
+                <h3 class="box-title">Thống kê doanh thu</h3>
+            </div>
+            <div class="box-body chart-responsive">
+                <div class="chart" id="line-chart" style="height: 450px;"></div>
+            </div>
+            <!-- /.box-body -->
+        </div>
+    </div>
+</div>
+
+@section styles {
+    <link rel="stylesheet" href="~/themes/bower_components/morris.js/morris.css">
+}
+
+@section scripts {
+    <script src="~/themes/bower_components/raphael/raphael.min.js"></script>
+    <script src="~/themes/bower_components/morris.js/morris.min.js"></script>
+    <script>
+        var line = new Morris.Line({
+            element: 'line-chart',
+            resize: true,
+            data: [
+                { x: '2024-07-01', y: 50000000 },
+                { x: '2024-07-02', y: 80000000 },
+                { x: '2024-07-03', y: 120000000 },
+                { x: '2024-07-04', y: 40000000 },
+                { x: '2024-07-05', y: 180000000 },
+                { x: '2024-07-06', y: 75000000 },
+                { x: '2024-07-07', y: 240000000 },
+            ],
+            xkey: 'x',
+            ykeys: ['y'],
+            labels: ['Doanh thu'],
+            lineColors: ['#3c8dbc'],
+            xLabelFormat: function (x) {
+                return ''; //moment(x).format('DD-MM-YYYY'); // Định dạng ngày tháng
+            },
+            dateFormat: function (x) {
+                return ''; //moment(x).format('DD-MM-YYYY'); // Định dạng ngày tháng
+            }
+        });
+    </script>
+}

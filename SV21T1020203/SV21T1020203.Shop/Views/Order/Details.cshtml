@@ -1,0 +1,160 @@
+﻿@model SV21T1020203.Shop.Models.OrderDetailModel
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <h4 class="card-title">Chi tiết đơn hàng #@Model.Order.OrderID</h4>
+            <div class="d-flex">
+                @if (Model.Order.Status != Constants.ORDER_CANCEL && Model.Order.Status != Constants.ORDER_FINISHED)
+                {
+                    <a href="~/Order/Cancel/@Model.Order.OrderID" class="btn btn-danger btn-sm me-3"
+                        onclick="return confirm('Xác nhận hủy đơn hàng này?')">Hủy đơn hàng
+                    </a>
+                }
+                <a href="~/Order" class="btn btn-secondary btn-sm ml-2">Quay lại</a>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Ngày lập đơn hàng:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">
+                        @Model.Order.OrderTime.ToString("dd/MM/yyyy hh:mm tt")</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Nhân viên phụ trách:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">@Model.Order.EmployeeName</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Ngày nhận đơn hàng:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">
+                        @Model.Order.AcceptTime?.ToString("dd/MM/yyyy hh:mm tt")</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Khách hàng:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">@Model.Order.CustomerName</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Tên giao dịch:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">@Model.Order.CustomerContactName</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Địa chỉ:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">@Model.Order.CustomerAddress</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Email:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">@Model.Order.CustomerEmail</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Địa chỉ giao hàng:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">@Model.Order.DeliveryAddress</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Tỉnh/thành:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">@Model.Order.DeliveryProvince</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Người giao hàng:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">@Model.Order.ShipperName</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Điện thoại:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">@Model.Order.ShipperPhone</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Nhận giao hàng lúc:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">
+                        @Model.Order.ShippedTime?.ToString("dd/MM/yyyy hh:mm tt")</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Trạng thái đơn hàng:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">@Model.Order.StatusDescription</p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <label class="col-sm-3 col-form-label">Thời điểm hoàn tất:</label>
+                <div class="col-sm-9">
+                    <p class="form-control-plaintext" style="font-size: 1.2em;">
+                        @Model.Order.FinishedTime?.ToString("dd/MM/yyyy hh:mm tt")</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="dialogModal" class="modal fade" role="dialog"></div>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            $('.dropdown-toggle').dropdown();
+            $(".btn-modal").click(function (e) {
+                e.preventDefault();
+                var link = $(this).prop("href");
+                $.ajax({
+                    url: link,
+                    type: "GET",
+                    error: function () {
+                        alert("Your request is not valid!");
+                    },
+                    success: function (data) {
+                        $("#dialogModal").empty().html(data).modal();
+                    }
+                });
+            });
+            $(document).on("submit", ".editDetailForm", function (e) {
+                e.preventDefault();
+                var $form = $(this);
+                var url = $form.attr("action");
+                var data = $form.serialize();
+
+                $.post(url, data, function (response) {
+                    if (response.success) {
+                        $("#dialogModal").modal("hide");
+                        window.location.href = response.redirectUrl;
+                    } else {
+                        $("#dialogModal .modal-content").html(response);
+                        $("#dialogModal").modal("show");
+                    }
+                });
+            });
+        });
+    </script>
+}

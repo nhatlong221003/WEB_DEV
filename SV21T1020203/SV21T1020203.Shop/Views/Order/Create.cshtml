@@ -1,0 +1,126 @@
+﻿@model ProductSearchInput
+<div class="box box-primary">
+    <div class="box-body">
+        <!-- Shopping cart and customer information -->
+        <div class="col-md-12">
+            <!-- Shopping Cart -->
+            <h3 class="text-primary font-weight-bold">Danh sách sản phẩm đã chọn</h3>
+            <div id="shoppingCart" class="table-responsive mb-4"></div>
+
+            <!-- Button to go back to the shopping page -->
+            <div class="form-group" style="text-align: center">
+                <a href="~/Product/Index" class="btn btn-success btn-lg"
+                    style="border-radius: 5px; background-color: #28a745; color: white;">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> Quay lại mua sắm
+                </a>
+            </div>
+
+            <!-- Customer Information and Order Initialization -->
+            <form id="frmOrderInit" action="~/Order/Init" method="post" class="form-horizontal">
+                <h3 class="text-success font-weight-bold">Thông tin về bạn và địa chỉ giao hàng</h3>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Khách hàng:</label>
+                    <div class="col-sm-10">
+                        <select class="form-control" name="customerID">
+                            @{
+                                var userData = User.GetUserData();
+                                <option value="@userData.UserId">@userData.DisplayName</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Tỉnh/thành:</label>
+                    <div class="col-sm-10">
+                        <select class="form-control select2" name="deliveryProvince">
+                            <option value="0">-- Chọn tỉnh/thành --</option>
+                            @foreach (var item in SV21T1020203.BusinessLayers.CommonDataService.ListOfProvinces())
+                            {
+                                <option value="@item.ProvinceName">@item.ProvinceName</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-sm-2">Địa chỉ nhận hàng:</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" name="deliveryAddress" required />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-lg-offset-2 col-sm-10">
+                        <span id="error-message" style="color:#f00"></span>
+                    </div>
+                </div>
+                <div class="form-group" style="text-align: center">
+                    <button type="submit" class="btn btn-success btn-sm">
+                        <i class="fa fa-check"></i> Tiến hành đặt hàng
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section scripts {
+    <script>
+        $(document).ready(function () {
+            doSearch(@Model.Page);
+            showShoppingCart();
+
+            $("#frmSearchInput").submit(function (e) {
+                e.preventDefault();
+                doSearch(1);
+            });
+
+            $("#frmOrderInit").submit(function (e) {
+                e.preventDefault();
+
+                $.ajax({
+                    url: $(this).prop("action"),
+                    type: $(this).prop("method"),
+                    data: $(this).serializeArray(),
+
+                    success: function (result) {
+                        if (isNaN(result)) {
+                            $("#error-message").html(result);
+                        } else {
+                            window.location.href = "Details/" + result;
+                        }
+                    }
+                });
+            });
+        });
+
+        function doSearch(page) {
+            var searchCondition = $("#frmSearchInput").serializeArray();
+            searchCondition.push({ name: "page", value: page });
+
+            var action = $("#frmSearchInput").prop("action");
+            var method = $("#frmSearchInput").prop("method");
+
+            $.ajax({
+                url: action,
+                type: method,
+                data: searchCondition,
+                success: function (data) {
+                    $("#searchResult").html(data);
+                }
+            });
+        }
+
+        function showShoppingCart() {
+            $.ajax({
+                url: "ShoppingCart",
+                type: 'GET',
+                success: function (data) {
+                    $('#shoppingCart').html(data);
+                }
+            });
+        }
+    </script>
+}

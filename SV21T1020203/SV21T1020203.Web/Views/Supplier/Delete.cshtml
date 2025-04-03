@@ -1,0 +1,43 @@
+@model SV21T1020203.DomainModels.Supplier
+<div class="box box-danger">
+  <div class="box-body">
+    <form action="~/Supplier/Delete/@Model.SupplierID" method="post">
+      <div class="form-group">
+        <label>Tên nhà cung cấp</label>
+        <p class="form-control-static">@Model.SupplierName</p>
+      </div>
+      <div class="form-group">
+        <label>Tên liên hệ</label>
+        <p class="form-control-static">@Model.ContactName</p>
+
+      </div>
+      <div class="form-group">
+        <label>Điện thoại</label>
+        <p class="form-control-static">@Model.Phone</p>
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <p class="form-control-static">@Model.Email</p>
+      </div>
+      <div class="form-group">
+        <label>Địa chỉ</label>
+        <p class="form-control-static">@Model.Address</p>
+      </div>
+      <div class="form-group">
+        <label>Tỉnh thành</label>
+        <p class="form-control-static">@Model.Province</p>
+      </div>
+      <div class="form-group text-right">
+        @if (!SV21T1020203.BusinessLayers.CommonDataService.InUsedSupplier(Model.SupplierID))
+        {
+          <button type="submit" class="btn btn-danger">
+            <i class="fa fa-trash"></i> Xác nhận xoá
+          </button>
+        }
+        <a href="~/Supplier" class="btn btn-default">
+          Quay lại
+        </a>
+      </div>
+    </form>
+  </div>
+</div>

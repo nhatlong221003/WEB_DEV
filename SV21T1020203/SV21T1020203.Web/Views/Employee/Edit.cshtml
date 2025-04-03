@@ -1,0 +1,84 @@
+@model SV21T1020203.DomainModels.Employee
+@{
+}
+<div class="box box-primary">
+  <div class="box-body">
+    <form class="form-horizontal" method="post" enctype="multipart/form-data" action="~/Employee/Save">
+      <input type="hidden" name="@nameof(Model.EmployeeID)" value="@Model.EmployeeID" />
+      <div class="form-group">
+        <label class="control-label col-sm-2">Họ và tên:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" name="@nameof(Model.FullName)" value="@Model.FullName" autofocus />
+          @Html.ValidationMessage(nameof(Model.FullName), new { @style = "color:#f00" })
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Ngày sinh:</label>
+        <div class="col-sm-10">
+          <input type="hidden" name="@nameof(Model.BirthDate)" value="@Model.BirthDate">
+          <input type="text" class="form-control date-picker" name="_BirthDate"
+            value="@Model.BirthDate.ToString("dd/MM/yyyy", new System.Globalization.CultureInfo("en-GB"))" />
+          @Html.ValidationMessage(nameof(Model.BirthDate), new { @style = "color:#f00" })
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Địa chỉ:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" name="@nameof(Model.Address)" value="@Model.Address" />
+          @Html.ValidationMessage(nameof(Model.Address), new { @style = "color:#f00" })
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Điện thoại:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" name="@nameof(Model.Phone)" value="@Model.Phone" />
+          @Html.ValidationMessage(nameof(Model.Phone), new { @style = "color:#f00" })
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Email:</label>
+        <div class="col-sm-10">
+          <input type="email" class="form-control" name="@nameof(Model.Email)" value="@Model.Email" />
+          @Html.ValidationMessage(nameof(Model.Email), new { @style = "color:#f00" })
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-lg-offset-2 col-sm-10">
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" name="@nameof(Model.IsWorking)" value="true" @(Model.IsWorking ? "checked" : "") />
+              Nhân viên đang làm việc
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="control-label col-sm-2">Ảnh cá nhân:</label>
+        <div class="col-sm-10">
+          <input type="hidden" name="@nameof(Model.Photo)" value="@Model.Photo" />
+
+          <input type="file" class="form-control" name="_Photo" accept="image/*"
+            onchange="document.getElementById('Photo').src = window.URL.createObjectURL(this.files[0])" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-lg-offset-2 col-sm-10">
+          <img id="Photo" src="~/images/employees/@(string.IsNullOrEmpty(Model.Photo) ? "nophoto.png" : Model.Photo)"
+            class="img img-bordered" style="width:200px" />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="col-lg-offset-2 col-sm-10">
+          <button type="submit" class="btn btn-primary">
+            <i class="fa fa-floppy-o"></i>
+            Lưu dữ liệu
+          </button>
+          <a href="~/Employee" class="btn btn-default">
+            Quay lại
+          </a>
+        </div>
+      </div>
+      @Html.ValidationMessage("Error")
+    </form>
+  </div>
+</div>

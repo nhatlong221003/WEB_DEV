@@ -1,0 +1,32 @@
+@model Category
+@{
+  ViewBag.Title = "Xóa Loại hàng";
+}
+
+<div class="box box-primary ">
+  <div class=" box-body">
+    <form action="~/Category/Delete/@Model.CategoryID" method="post">
+      <div class="form-group">
+        <label>Tên Loại hàng:</label>
+        <p class="from-control-static form-control "> @Model.CategoryName</p>
+      </div>
+      <div class="form-group">
+        <label>Miêu tả:</label>
+        <p class="from-control-static form-control ">@Model.Description</p>
+      </div>
+      <div class="from-group text-right">
+        @if (!SV21T1020203.BusinessLayers.CommonDataService.InUsedCategory(Model.CategoryID))
+        {
+          <button type="submit" class="btn btn-primary">
+            <i class="fa fa-floppy-o"></i> Xóa dữ liệu
+          </button>
+
+        }
+        <a href="~/Category" class="btn btn-default">
+          Quay lại
+        </a>
+      </div>
+    </form>
+
+  </div>
+</div>

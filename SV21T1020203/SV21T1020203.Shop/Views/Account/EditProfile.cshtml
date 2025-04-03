@@ -1,0 +1,78 @@
+﻿@using SV21T1020203.DomainModels
+@model Customer
+@{
+
+}
+<div class="box box-primary shadow p-4 rounded">
+    <div class="box-header text-center mb-4">
+        <h3 class="box-title">Cập nhật thông tin khách hàng</h3>
+    </div>
+    <div class="box-body">
+        <form action="~/Account/EditProfile" method="post">
+            <input type="hidden" name="@nameof(Model.CustomerID)" value="@Model.CustomerID" />
+
+            <div class="form-group mb-3">
+                <label for="customerName" class="form-label">Tên khách hàng:</label>
+                <input type="text" id="customerName" class="form-control" autofocus name="@nameof(Model.CustomerName)"
+                    value="@Model.CustomerName" placeholder="Nhập tên khách hàng">
+                @Html.ValidationMessage(nameof(Model.CustomerName), null, new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="contactName" class="form-label">Tên giao dịch:</label>
+                <input type="text" id="contactName" class="form-control" name="@nameof(Model.ContactName)"
+                    value="@Model.ContactName" placeholder="Nhập tên giao dịch">
+                @Html.ValidationMessage(nameof(Model.ContactName), null, new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="phone" class="form-label">Điện thoại:</label>
+                <input type="text" id="phone" class="form-control" name="@nameof(Model.Phone)" value="@Model.Phone"
+                    placeholder="Nhập số điện thoại">
+                @Html.ValidationMessage(nameof(Model.Phone), null, new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" id="email" class="form-control" name="@nameof(Model.Email)" value="@Model.Email"
+                    placeholder="Nhập email">
+                @Html.ValidationMessage(nameof(Model.Email), null, new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="address" class="form-label">Địa chỉ:</label>
+                <input type="text" id="address" class="form-control" name="@nameof(Model.Address)"
+                    value="@Model.Address" placeholder="Nhập địa chỉ">
+                @Html.ValidationMessage(nameof(Model.Address), null, new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="province" class="form-label">Tỉnh thành:</label>
+                <select id="province" class="form-select" name="@nameof(Model.Province)">
+                    <option value="">-- Chọn tỉnh/ Thành phố --</option>
+                    @foreach (var item in SV21T1020203.BusinessLayers.CommonDataService.ListOfProvinces())
+                    {
+                        if (item.ProvinceName == Model.Province)
+                        {
+                            <option value="@item.ProvinceName" selected>@item.ProvinceName</option>
+                        }
+                        else
+                        {
+                            <option value="@item.ProvinceName">@item.ProvinceName</option>
+                        }
+                    }
+                </select>
+                @Html.ValidationMessage(nameof(Model.Province), null, new { @class = "text-danger" })
+            </div>
+
+            <div class="form-group text-right mt-4">
+                <button type="submit" class="btn btn-primary me-2">
+                    <i class="fa fa-floppy-o"></i> Lưu dữ liệu
+                </button>
+                <a href="~/Product" class="btn btn-secondary">
+                    Quay lại
+                </a>
+            </div>
+        </form>
+    </div>
+</div>

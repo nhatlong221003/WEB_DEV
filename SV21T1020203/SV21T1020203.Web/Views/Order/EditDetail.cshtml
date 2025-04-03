@@ -1,0 +1,75 @@
+﻿@model OrderDetail
+@{
+    Layout = null;
+}
+
+<div class="modal-dialog">
+    <div class="modal-content">
+        <form action="~/Order/UpdateDetail" method="post" class="form-horizontal editDetailForm">
+            <input type="hidden" name="@nameof(Model.OrderID)" value="@Model.OrderID">
+            <input type="hidden" name="@nameof(Model.ProductID)" value="@Model.ProductID">
+            <input type="hidden" name="@nameof(Model.ProductName)" value="@Model.ProductName">
+            <input type="hidden" name="@nameof(Model.Unit)" value="@Model.Unit">
+
+            <div class="modal-header bg-primary">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Cập nhật chi tiết đơn hàng</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Tên mặt hàng:</label>
+                    <div class="col-sm-9">
+                        <p class="form-control-static" name="@nameof(Model.ProductName)">@Model.ProductName</p>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Đơn vị tính:</label>
+                    <div class="col-sm-9">
+                        <p class="form-control-static" name="@nameof(Model.Unit)">@Model.Unit</p>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Số lượng:</label>
+                    <div class="col-sm-9">
+                        <input type="number" class="form-control" value="@Model.Quantity" name="@nameof(Model.Quantity)"
+                            min="1" required />
+                        @Html.ValidationMessage(nameof(Model.Quantity), new { @style = "color:#f00" })
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-sm-3">Giá bán:</label>
+                    <div class="col-sm-9">
+                        <input class="form-control number-separator" type="text" value="@Model.SalePrice.ToString("N0")"
+                            name="@nameof(Model.SalePrice)" />
+                        @Html.ValidationMessage(nameof(Model.SalePrice), new { @style = "color:#f00" })
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-floppy-o"></i> Cập nhật
+                </button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                    <i href="~/Order/Details/@Model.OrderID" class="fa fa-floppy-o">Bỏ qua</i>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+<script>
+    $(document).ready(function () {
+        $(".number-separator").inputmask({
+            alias: "numeric",
+            groupSeparator: ",",
+            autoGroup: true,
+            digits: 0,
+            rightAlign: false,
+            removeMaskOnSubmit: true,
+        });
+
+    })
+
+</script>

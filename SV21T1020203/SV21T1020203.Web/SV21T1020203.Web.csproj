@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+  <ItemGroup>
+    <ProjectReference Include="..\SV21T1020203.DataLayers\SV21T1020203.DataLayers.csproj" />
+    <ProjectReference Include="..\SV21T1020203.DomainModels\SV21T1020203.DomainModels.csproj" />
+    <ProjectReference Include="..\SV21T1020203.BusinessLayers\SV21T1020203.BusinessLayers.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Owin" Version="4.2.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+</Project>

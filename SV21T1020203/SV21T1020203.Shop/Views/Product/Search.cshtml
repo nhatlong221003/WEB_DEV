@@ -1,0 +1,168 @@
+@model SV21T1020203.Shop.Models.ProductSearchResult
+@{
+  Layout = null;
+}
+
+<!-- Shop Start -->
+<div class="container-fluid pt-5">
+  @if (TempData["SuccessMessage"] != null)
+  {
+    <div class="alert alert-success text-center">
+      @TempData["SuccessMessage"]
+    </div>
+  }
+
+  <div class="row px-xl-5">
+    <div class="col-lg-12">
+      <div class="row pb-3">
+        @foreach (var item in Model.Data)
+        {
+          <div class="col-lg-4 col-md-6 mb-4 d-flex align-items-stretch">
+            <div class="card frmAddToCart flex-fill shadow-sm">
+              <form action="~/Order/AddToCart" method="post">
+                <input type="hidden" name="ProductID" value="@item.ProductID" />
+                <input type="hidden" name="ProductName" value="@item.ProductName" />
+                <input type="hidden" name="Photo" value="@item.Photo" />
+                <input type="hidden" name="Unit" value="@item.Unit" />
+                
+                <div class="text-center">
+                  <h5 class="product-title">@item.ProductName</h5>
+                  <img class="img-fluid img-bordered mb-2"
+                    src="~/images/products/@(item.Photo == "" ? "No_Image_Available.jpg" : item.Photo)" alt="NoPhoto">
+                  <input class="form-control number-separator mb-2" type="text" value="@item.Price.ToString("N0")"
+                    name="SalePrice" readonly />
+                  <input class="form-control mb-2" type="number" value="1" min="1" name="Quantity" />
+                </div>
+                
+                <div class="d-flex justify-content-between">
+                  <a href="@Url.Action("Details", "Product", new { id = item.ProductID })"
+                    class="btn btn-info">
+                    Chi tiết sản phẩm
+                  </a>
+                  <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-shopping-cart"></i> Thêm vào giỏ
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        }
+        <div class="col-12">
+          <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center mb-3">
+              @for (int p = 1; p <= Model.PageCount; p++)
+              {
+                <li class="page-item @(p == Model.Page ? "active" : "")">
+                  <a class="page-link" href="javascript:;" onclick="doSearch(@p)">@p</a>
+                </li>
+              }
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  .card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 100%;
+    background-color: #f8f9fa; /* Light background for cards */
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .product-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333; /* Darker text color */
+  }
+
+  .img-bordered {
+    border: 1px solid #dee2e6;
+    border-radius: 10px; /* More rounded corners */
+    transition: transform 0.2s;
+  }
+
+  .img-bordered:hover {
+    transform: scale(1.05);
+  }
+
+  .pagination {
+    justify-content: center;
+  }
+
+  .pagination .page-item.active .page-link {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  .pagination .page-link {
+    color: #007bff;
+    transition: background-color 0.2s;
+  }
+
+  .pagination .page-link:hover {
+    background-color: #e9ecef;
+  }
+
+  /* Additional styles for buttons */
+  .btn-info {
+    background-color: #17a2b8;
+    border: none;
+    transition: background-color 0.3s;
+  }
+
+  .btn-info:hover {
+    background-color: #138496;
+  }
+
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background-color 0.3s;
+  }
+
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+</style>
+
+<script>
+  $(document).ready(function () {
+    $(".number-separator").inputmask({
+      alias: "numeric",
+      groupSeparator: ",",
+      autoGroup: true,
+      digits: 0,
+      rightAlign: false,
+      removeMaskOnSubmit: true,
+    });
+    $(".frmAddToCart").submit(function (e) {
+      e.preventDefault();
+
+      var url = $(this).prop("action");
+      var method = $(this).prop("method");
+      var data = $(this).serializeArray();
+
+      $.ajax({
+        url: url,
+        type: method,
+        data: data,
+        success: function (result) {
+          if (result !== "") {
+            alert(result);
+          } else {
+            showShoppingCart();
+          }
+        }
+      });
+    });
+  });
+</script>

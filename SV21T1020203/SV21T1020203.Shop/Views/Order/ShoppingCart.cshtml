@@ -1,0 +1,154 @@
+@model IEnumerable<CartItem>
+@{
+  Layout = null;
+  int stt = 0;
+  decimal sumOfPrice = 0;
+}
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">🛒 Giỏ Hàng Của Bạn</h2>
+
+  <table class="table table-bordered table-hover text-center shadow-sm rounded">
+    <thead class="table-primary">
+      <tr>
+        <th>STT</th>
+        <th>Tên hàng</th>
+        <th>ĐVT</th>
+        <th>Số lượng</th>
+        <th>Giá</th>
+        <th>Thành tiền</th>
+        <th>Hành động</th>
+      </tr>
+    </thead>
+    <tbody>
+      @if (Model.Count() > 0)
+      {
+        @foreach (var item in Model)
+        {
+          sumOfPrice += item.TotalPrice;
+          <tr>
+            <td>@(++stt)</td>
+            <td>@item.ProductName</td>
+            <td>@item.Unit</td>
+            <td>
+              <form method="post" action="~/Order/UpdateCart" class="d-flex align-items-center justify-content-center">
+                <input type="hidden" name="ProductID" value="@item.ProductID" />
+                <input type="number" class="form-control form-control-sm text-center border rounded" name="Quantity"
+                  value="@item.Quantity" style="width: 70px;" min="1" />
+                <button type="submit" class="btn btn-sm ms-2 btn-warning text-white shadow-sm">
+                  <i class="fas fa-sync-alt"></i> Cập nhật
+                </button>
+              </form>
+            </td>
+            <td>@item.SalePrice.ToString("N0") ₫</td>
+            <td>@item.TotalPrice.ToString("N0") ₫</td>
+            <td>
+              <a href="~/Order/RemoveFromCart/@item.ProductID" class="btn btn-danger btn-sm shadow-sm"
+                onclick="return confirm('Xoá mặt hàng @item.ProductName ra khỏi giỏ hàng?')">
+                <i class="fa fa-trash"></i> Xóa
+              </a>
+            </td>
+          </tr>
+        }
+      }
+      else
+      {
+        <tr>
+          <td colspan="7" class="text-center">
+            <p class="text-danger">🛑 Giỏ hàng trống</p>
+          </td>
+        </tr>
+      }
+    </tbody>
+    <tfoot class="table-light">
+      <tr>
+        <th colspan="5" class="text-end">Tổng cộng:</th>
+        <th>@sumOfPrice.ToString("N0") ₫</th>
+        <th></th>
+      </tr>
+    </tfoot>
+  </table>
+
+  <div class="d-flex justify-content-end align-items-center mt-4">
+    <a href="~/Order/ClearCart" class="btn btn-outline-danger shadow-sm"
+      onclick="return confirm('Có muốn xóa giỏ hàng không?')">
+      <i class="fa fa-trash"></i> Xóa giỏ hàng
+    </a>
+  </div>
+
+</div>
+
+<script>
+  $(document).ready(function () {
+    $(".ajax-link").click(function (e) {
+      e.preventDefault();
+
+      $.ajax({
+        url: $(this).prop("href"),
+        type: "GET",
+        success: function (data) {
+          if (data !== "") {
+            alert(data);
+          }
+          else {
+            showShoppingCart();
+          }
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f8f9fa;
+  }
+
+  .container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  h2 {
+    color: #007bff;
+  }
+
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+
+  .table-primary {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .table-light {
+    background-color: #f9f9f9;
+  }
+
+  .ajax-link {
+    cursor: pointer;
+  }
+
+  .table {
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+
+  .btn:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+    transition: 0.2s ease;
+  }
+</style>

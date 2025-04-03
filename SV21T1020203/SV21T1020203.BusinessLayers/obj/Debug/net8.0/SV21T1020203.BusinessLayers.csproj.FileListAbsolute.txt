@@ -1,0 +1,17 @@
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/bin/Debug/net8.0/SV21T1020203.BusinessLayers.deps.json
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/bin/Debug/net8.0/SV21T1020203.BusinessLayers.dll
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/bin/Debug/net8.0/SV21T1020203.BusinessLayers.pdb
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/bin/Debug/net8.0/SV21T1020203.DataLayers.dll
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/bin/Debug/net8.0/SV21T1020203.DomainModels.dll
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/bin/Debug/net8.0/SV21T1020203.DomainModels.pdb
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/bin/Debug/net8.0/SV21T1020203.DataLayers.pdb
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/obj/Debug/net8.0/SV21T1020203.BusinessLayers.csproj.AssemblyReference.cache
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/obj/Debug/net8.0/SV21T1020203.BusinessLayers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/obj/Debug/net8.0/SV21T1020203.BusinessLayers.AssemblyInfoInputs.cache
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/obj/Debug/net8.0/SV21T1020203.BusinessLayers.AssemblyInfo.cs
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/obj/Debug/net8.0/SV21T1020203.BusinessLayers.csproj.CoreCompileInputs.cache
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/obj/Debug/net8.0/SV21T102.F0A26269.Up2Date
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/obj/Debug/net8.0/SV21T1020203.BusinessLayers.dll
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/obj/Debug/net8.0/refint/SV21T1020203.BusinessLayers.dll
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/obj/Debug/net8.0/SV21T1020203.BusinessLayers.pdb
+/Users/phnlong/SV21T1020203/SV21T1020203.BusinessLayers/obj/Debug/net8.0/ref/SV21T1020203.BusinessLayers.dll

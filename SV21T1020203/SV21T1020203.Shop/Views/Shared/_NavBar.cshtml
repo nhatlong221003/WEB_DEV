@@ -1,0 +1,71 @@
+<!-- Navbar Start -->
+<div class="container-fluid mb-5">
+  <div class="row border-top px-xl-5">
+    <div class="col-lg">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 shadow-sm">
+        <a href="#" class="text-decoration-none d-block d-lg-none">
+          <h1 class="m-0 display-5 font-weight-semi-bold text-light"><span class="font-weight-bold">E</span>Shopper</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+          <div class="navbar-nav mr-auto">
+            <a href="~/Product" class="nav-item nav-link">Trang chủ</a>
+            <a href="~/Order/Create" class="nav-item nav-link">Giỏ hàng</a>
+            <a href="~/Order" class="nav-item nav-link">Theo dõi đơn hàng</a>
+          </div>
+          <div class="navbar-nav ml-auto">
+            <a href="~/Account/Login" class="btn btn-outline-light rounded-pill">Login</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+<!-- Navbar End -->
+
+<style>
+  .navbar {
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+
+  .navbar:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+    /* Slightly transparent on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Soft shadow */
+  }
+
+  .nav-link {
+    font-size: 16px;
+    margin: 0 20px;
+    transition: color 0.3s;
+  }
+
+  .nav-link:hover {
+    color: #ffc107;
+    /* Gold color on hover */
+  }
+
+  .btn-outline-light {
+    border-radius: 30px;
+    /* More rounded */
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+
+  .btn-outline-light:hover {
+    background-color: #ffc107;
+    /* Gold background on hover */
+    color: #fff;
+    /* White text on hover */
+  }
+
+  .nav-item.active {
+    font-weight: bold;
+    color: #ffc107;
+    /* Gold for active link */
+  }
+</style>

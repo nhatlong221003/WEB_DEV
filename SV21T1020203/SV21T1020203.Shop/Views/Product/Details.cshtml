@@ -1,0 +1,103 @@
+@model SV21T1020203.DomainModels.Product
+
+<!-- Shop Detail Start -->
+<div class="container-fluid py-5">
+  <div class="row px-xl-5">
+    <div class="col-lg-6 pb-5 text-center">
+      <!-- Display Product Image -->
+      <div class="card border-0 shadow-lg">
+        <img src="~/images/products/@(string.IsNullOrEmpty(Model.Photo) ? "nophoto.png" : Model.Photo)"
+          alt="@Model.ProductName" class="card-img-top img-fluid rounded" style="max-height: 350px;" />
+        <!-- Adjusted max-height -->
+      </div>
+    </div>
+
+    <div class="col-lg-6 pb-5 d-flex align-items-center">
+      <div class="card border-0 shadow-lg w-100">
+        <div class="card-body">
+          <h3 class="font-weight-bold text-dark">@Model.ProductName</h3>
+          <h4 class="font-weight-bold text-danger mb-4">Giá: @Model.Price.ToString("C")</h4>
+          <p class="mb-4" style="font-size: 1.1em;">
+            Mô tả: @Model.ProductDescription
+          </p>
+          <div class="d-flex justify-content-between mt-4">
+            <a href="~/Product" class="btn btn-primary btn-lg me-2">Về Trang Chủ</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Shop Detail End -->
+
+<script>
+  $(document).ready(function () {
+    $(".number-separator").inputmask({
+      alias: "numeric",
+      groupSeparator: ",",
+      autoGroup: true,
+      digits: 0,
+      rightAlign: false,
+      removeMaskOnSubmit: true,
+    });
+
+    $(".frmAddToCart").submit(function (e) {
+      e.preventDefault();
+
+      var url = $(this).prop("action");
+      var method = $(this).prop("method");
+      var data = $(this).serializeArray();
+
+      $.ajax({
+        url: url,
+        type: method,
+        data: data,
+        success: function (result) {
+          if (result !== "") {
+            alert(result);
+          } else {
+            showShoppingCart();
+          }
+        }
+      });
+    });
+  });
+</script>
+
+<style>
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: #f8f9fa;
+  }
+
+  .card {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .card-img-top {
+    transition: transform 0.3s ease;
+  }
+
+  .card-img-top:hover {
+    transform: scale(1.05);
+  }
+
+  .btn {
+    border-radius: 20px;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+
+  .btn:hover {
+    transform: translateY(-2px);
+  }
+
+  .btn:active {
+    transform: translateY(0);
+  }
+
+  h3,
+  h4 {
+    text-transform: uppercase;
+  }
+</style>

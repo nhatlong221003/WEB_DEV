@@ -1,0 +1,79 @@
+@model SV21T1020203.Shop.Models.ProductSearchInput
+
+@{
+}
+<div class="box box-primary">
+  <div class="box-body">
+    <!-- Form đầu vào tìm kiếm -->
+    <form id="frmSearchInput" action="~/Product/Search" method="get">
+      <div class="col-sm-3">
+
+        <select class="form-control" name="@nameof(Model.CategoryID)">
+          <option value="0">-- Chọn loại hàng --</option>
+          @foreach (var item in SV21T1020203.BusinessLayers.CommonDataService.ListOfCategories())
+          {
+            if (item.CategoryID == Model.CategoryID)
+            {
+              <option value="@item.CategoryID" selected>@item.CategoryName</option>
+            }
+            else
+            {
+              <option value="@item.CategoryID">@item.CategoryName</option>
+            }
+          }
+        </select>
+      </div>
+      <input type="hidden" name="@nameof(Model.PageSize)" value="@Model.PageSize" />
+
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="input-group">
+            <input name="@nameof(Model.SearchValue)" value="@Model.SearchValue" type="text" class="form-control"
+              placeholder="Nhập mặt hàng hàng cần tìm" autofocus="">
+            <div class="input-group-btn">
+              <button class="btn btn-info" type="submit">
+                <i class="glyphicon glyphicon-search"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <h2 class="text-center">Danh sách sản phẩm</h2>
+
+    <!-- Hiển thị dữ liệu -->
+    <div id="searchResult">
+    </div>
+  </div>
+</div>
+
+@section scripts {
+  <script>
+    function doSearch(page) {
+      var searchCondition = $("#frmSearchInput").serializeArray();
+      searchCondition.push({ name: "page", value: page });
+
+      var action = $("#frmSearchInput").prop("action");
+      var method = $("#frmSearchInput").prop("method");
+
+      $.ajax({
+        url: action,
+        type: method,
+        data: searchCondition,
+        success: function (data) {
+          $("#searchResult").html(data);
+        }
+      });
+    }
+
+    $(document).ready(function () {
+      doSearch(@Model.Page);
+      $("#frmSearchInput").submit(function (e) {
+        e.preventDefault();
+        doSearch(1);
+      });
+    });
+
+  </script>
+}

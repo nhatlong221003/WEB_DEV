@@ -1,0 +1,1997 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/obj/Debug/net8.0/scopedcss/projectbundle/SV21T1020203.Shop.bundle.scp.css",
+      "PackagePath": "staticwebassets/SV21T1020203.Shop.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/customers/donna.jpeg",
+      "PackagePath": "staticwebassets/images/customers/donna.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638653601834094670-nophoto.png",
+      "PackagePath": "staticwebassets/images/employees/638653601834094670-nophoto.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638653609219799860-anh5.jpg",
+      "PackagePath": "staticwebassets/images/employees/638653609219799860-anh5.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638653610590047140-anh6.jpg",
+      "PackagePath": "staticwebassets/images/employees/638653610590047140-anh6.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638653617833248670-macbook.png",
+      "PackagePath": "staticwebassets/images/employees/638653617833248670-macbook.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638659538264964210-restaurant-logo-design_1128391-17280.avif",
+      "PackagePath": "staticwebassets/images/employees/638659538264964210-restaurant-logo-design_1128391-17280.avif"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638659539177159460-anh2.jpg",
+      "PackagePath": "staticwebassets/images/employees/638659539177159460-anh2.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638659539298073040-anh8.jpg",
+      "PackagePath": "staticwebassets/images/employees/638659539298073040-anh8.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638670363112426110-ava1.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638670363112426110-ava1.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638670365785247040-ava3.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638670365785247040-ava3.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638671749454620790-ava4.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638671749454620790-ava4.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638683385734563760-638670365785247040-ava3.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638683385734563760-638670365785247040-ava3.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638683387638181030-638671749454620790-ava4.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638683387638181030-638671749454620790-ava4.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638683428669346870-638671749454620790-ava4.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638683428669346870-638671749454620790-ava4.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638683891204553120-638670363112426110-ava1.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638683891204553120-638670363112426110-ava1.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638683893604763010-638670365785247040-ava3.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638683893604763010-638670365785247040-ava3.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638696336951989340-638683385734563760-638670365785247040-ava3.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638696336951989340-638683385734563760-638670365785247040-ava3.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638696742971263930-638683385734563760-638670365785247040-ava3.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638696742971263930-638683385734563760-638670365785247040-ava3.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638696776240132950-638683891204553120-638670363112426110-ava1.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638696776240132950-638683891204553120-638670363112426110-ava1.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638696792717123170-638683893604763010-638670365785247040-ava3.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638696792717123170-638683893604763010-638670365785247040-ava3.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/638696792963061640-638670363112426110-ava1.jpeg",
+      "PackagePath": "staticwebassets/images/employees/638696792963061640-638670363112426110-ava1.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/donna.jpeg",
+      "PackagePath": "staticwebassets/images/employees/donna.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/employees/nophoto.png",
+      "PackagePath": "staticwebassets/images/employees/nophoto.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638666526513020954_281836349_145171984726896_6631298219937398992_n.jpg",
+      "PackagePath": "staticwebassets/images/products/638666526513020954_281836349_145171984726896_6631298219937398992_n.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638666526817648700_a.png",
+      "PackagePath": "staticwebassets/images/products/638666526817648700_a.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638666537573918233_background-banh-mi-inkythuatso-3-1024x683.jpg",
+      "PackagePath": "staticwebassets/images/products/638666537573918233_background-banh-mi-inkythuatso-3-1024x683.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638666584293205528_2_08210717102020.jpg",
+      "PackagePath": "staticwebassets/images/products/638666584293205528_2_08210717102020.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638666584543350078_2_08210717102020.jpg",
+      "PackagePath": "staticwebassets/images/products/638666584543350078_2_08210717102020.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638666586051683620_281836349_145171984726896_6631298219937398992_n.jpg",
+      "PackagePath": "staticwebassets/images/products/638666586051683620_281836349_145171984726896_6631298219937398992_n.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638672196972401126_Discover & share this Congratulations GIF with everyone you know_ GIPHY is how you search, share, discover, and create GIFs_.gif",
+      "PackagePath": "staticwebassets/images/products/638672196972401126_Discover & share this Congratulations GIF with everyone you know_ GIPHY is how you search, share, discover, and create GIFs_.gif"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638672270713822543_Discover & share this Congratulations GIF with everyone you know_ GIPHY is how you search, share, discover, and create GIFs_.gif",
+      "PackagePath": "staticwebassets/images/products/638672270713822543_Discover & share this Congratulations GIF with everyone you know_ GIPHY is how you search, share, discover, and create GIFs_.gif"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638672272199694366_Discover & share this Congratulations GIF with everyone you know_ GIPHY is how you search, share, discover, and create GIFs_.gif",
+      "PackagePath": "staticwebassets/images/products/638672272199694366_Discover & share this Congratulations GIF with everyone you know_ GIPHY is how you search, share, discover, and create GIFs_.gif"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638672272267237324_Discover & share this Congratulations GIF with everyone you know_ GIPHY is how you search, share, discover, and create GIFs_.gif",
+      "PackagePath": "staticwebassets/images/products/638672272267237324_Discover & share this Congratulations GIF with everyone you know_ GIPHY is how you search, share, discover, and create GIFs_.gif"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638678382592310081_background-banh-mi-inkythuatso-3-1024x683.jpg",
+      "PackagePath": "staticwebassets/images/products/638678382592310081_background-banh-mi-inkythuatso-3-1024x683.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638678384034466451_1725899777_tra-xanh-sua-yen-mach-k-kem-long-den_400x400.jpg",
+      "PackagePath": "staticwebassets/images/products/638678384034466451_1725899777_tra-xanh-sua-yen-mach-k-kem-long-den_400x400.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638678387351610908_1725899777_tra-xanh-sua-yen-mach-k-kem-long-den_400x400.jpg",
+      "PackagePath": "staticwebassets/images/products/638678387351610908_1725899777_tra-xanh-sua-yen-mach-k-kem-long-den_400x400.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638678393720159743_1520136060065.jpg",
+      "PackagePath": "staticwebassets/images/products/638678393720159743_1520136060065.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638678394397841338_cn1b-2555.jpg.webp",
+      "PackagePath": "staticwebassets/images/products/638678394397841338_cn1b-2555.jpg.webp"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638678394540304014_284614145_536522318107597_2031514483659535802_n - Copy.jpg",
+      "PackagePath": "staticwebassets/images/products/638678394540304014_284614145_536522318107597_2031514483659535802_n - Copy.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638678400807558858_a.png",
+      "PackagePath": "staticwebassets/images/products/638678400807558858_a.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638678657623982852_284614145_536522318107597_2031514483659535802_n - Copy.jpg",
+      "PackagePath": "staticwebassets/images/products/638678657623982852_284614145_536522318107597_2031514483659535802_n - Copy.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638684379411334258_281836349_145171984726896_6631298219937398992_n.jpg",
+      "PackagePath": "staticwebassets/images/products/638684379411334258_281836349_145171984726896_6631298219937398992_n.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638684379635314470_284614145_536522318107597_2031514483659535802_n - Copy.jpg",
+      "PackagePath": "staticwebassets/images/products/638684379635314470_284614145_536522318107597_2031514483659535802_n - Copy.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638684379795313144_281836349_145171984726896_6631298219937398992_n.jpg",
+      "PackagePath": "staticwebassets/images/products/638684379795313144_281836349_145171984726896_6631298219937398992_n.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638684380139902509_284614145_536522318107597_2031514483659535802_n - Copy.jpg",
+      "PackagePath": "staticwebassets/images/products/638684380139902509_284614145_536522318107597_2031514483659535802_n - Copy.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638684386127927020_281836349_145171984726896_6631298219937398992_n.jpg",
+      "PackagePath": "staticwebassets/images/products/638684386127927020_281836349_145171984726896_6631298219937398992_n.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638684395145299237_284614145_536522318107597_2031514483659535802_n - Copy.jpg",
+      "PackagePath": "staticwebassets/images/products/638684395145299237_284614145_536522318107597_2031514483659535802_n - Copy.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638684395247274025_281836349_145171984726896_6631298219937398992_n.jpg",
+      "PackagePath": "staticwebassets/images/products/638684395247274025_281836349_145171984726896_6631298219937398992_n.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638690728769080460_image3.jpg",
+      "PackagePath": "staticwebassets/images/products/638690728769080460_image3.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638690729073994812_284614145_536522318107597_2031514483659535802_n - Copy.jpg",
+      "PackagePath": "staticwebassets/images/products/638690729073994812_284614145_536522318107597_2031514483659535802_n - Copy.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638690735506057726_1725899777_tra-xanh-sua-yen-mach-k-kem-long-den_400x400.jpg",
+      "PackagePath": "staticwebassets/images/products/638690735506057726_1725899777_tra-xanh-sua-yen-mach-k-kem-long-den_400x400.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638690735672564708_1520136060065.jpg",
+      "PackagePath": "staticwebassets/images/products/638690735672564708_1520136060065.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696489061050510_macboook.jpg",
+      "PackagePath": "staticwebassets/images/products/638696489061050510_macboook.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696733279773690_macboook.jpg",
+      "PackagePath": "staticwebassets/images/products/638696733279773690_macboook.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696736278058750_macboook.jpg",
+      "PackagePath": "staticwebassets/images/products/638696736278058750_macboook.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696763998313080_iphone.jpeg",
+      "PackagePath": "staticwebassets/images/products/638696763998313080_iphone.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696764195409850_iphone.jpeg",
+      "PackagePath": "staticwebassets/images/products/638696764195409850_iphone.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696764697693580_iphone.jpeg",
+      "PackagePath": "staticwebassets/images/products/638696764697693580_iphone.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696765758945080_iphone.jpeg",
+      "PackagePath": "staticwebassets/images/products/638696765758945080_iphone.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696766889604980_macboook.jpg",
+      "PackagePath": "staticwebassets/images/products/638696766889604980_macboook.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696767146245140_macboook.jpg",
+      "PackagePath": "staticwebassets/images/products/638696767146245140_macboook.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696794807055590_macboook.jpg",
+      "PackagePath": "staticwebassets/images/products/638696794807055590_macboook.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696795008492630_macboook.jpg",
+      "PackagePath": "staticwebassets/images/products/638696795008492630_macboook.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696795118353950_macboook.jpg",
+      "PackagePath": "staticwebassets/images/products/638696795118353950_macboook.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/638696795231641730_macboook.jpg",
+      "PackagePath": "staticwebassets/images/products/638696795231641730_macboook.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/Acer.jpeg",
+      "PackagePath": "staticwebassets/images/products/Acer.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/Axus.jpeg",
+      "PackagePath": "staticwebassets/images/products/Axus.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/No_Image_Available.jpg",
+      "PackagePath": "staticwebassets/images/products/No_Image_Available.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/ghean.jpeg",
+      "PackagePath": "staticwebassets/images/products/ghean.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/iphone.jpeg",
+      "PackagePath": "staticwebassets/images/products/iphone.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/macboook.jpg",
+      "PackagePath": "staticwebassets/images/products/macboook.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/noibocvai.jpeg",
+      "PackagePath": "staticwebassets/images/products/noibocvai.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/images/products/xeday.jpeg",
+      "PackagePath": "staticwebassets/images/products/xeday.jpeg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/LICENSE.txt",
+      "PackagePath": "staticwebassets/themes/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/READ-ME.txt",
+      "PackagePath": "staticwebassets/themes/READ-ME.txt"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/bootstrap-shop-template.jpg",
+      "PackagePath": "staticwebassets/themes/bootstrap-shop-template.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/cart.html",
+      "PackagePath": "staticwebassets/themes/cart.html"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/checkout.html",
+      "PackagePath": "staticwebassets/themes/checkout.html"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/contact.html",
+      "PackagePath": "staticwebassets/themes/contact.html"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/css/style.css",
+      "PackagePath": "staticwebassets/themes/css/style.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/css/style.min.css",
+      "PackagePath": "staticwebassets/themes/css/style.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/detail.html",
+      "PackagePath": "staticwebassets/themes/detail.html"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/AdminLTE.css",
+      "PackagePath": "staticwebassets/themes/dist/css/AdminLTE.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/AdminLTE.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/AdminLTE.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/adminlte.css.map",
+      "PackagePath": "staticwebassets/themes/dist/css/adminlte.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/adminlte.min.css.map",
+      "PackagePath": "staticwebassets/themes/dist/css/adminlte.min.css.map"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/alt/AdminLTE-bootstrap-social.css",
+      "PackagePath": "staticwebassets/themes/dist/css/alt/AdminLTE-bootstrap-social.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/alt/AdminLTE-bootstrap-social.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/alt/AdminLTE-bootstrap-social.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/alt/AdminLTE-fullcalendar.css",
+      "PackagePath": "staticwebassets/themes/dist/css/alt/AdminLTE-fullcalendar.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/alt/AdminLTE-fullcalendar.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/alt/AdminLTE-fullcalendar.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/alt/AdminLTE-select2.css",
+      "PackagePath": "staticwebassets/themes/dist/css/alt/AdminLTE-select2.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/alt/AdminLTE-select2.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/alt/AdminLTE-select2.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/alt/AdminLTE-without-plugins.css",
+      "PackagePath": "staticwebassets/themes/dist/css/alt/AdminLTE-without-plugins.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/alt/AdminLTE-without-plugins.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/alt/AdminLTE-without-plugins.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/_all-skins.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/_all-skins.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/_all-skins.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/_all-skins.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-black-light.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-black-light.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-black-light.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-black-light.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-black.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-black.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-black.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-black.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-blue-light.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-blue-light.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-blue-light.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-blue-light.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-blue.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-blue.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-blue.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-blue.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-green-light.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-green-light.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-green-light.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-green-light.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-green.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-green.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-green.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-green.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-purple-light.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-purple-light.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-purple-light.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-purple-light.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-purple.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-purple.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-purple.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-purple.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-red-light.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-red-light.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-red-light.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-red-light.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-red.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-red.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-red.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-red.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-yellow-light.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-yellow-light.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-yellow-light.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-yellow-light.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-yellow.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-yellow.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/css/skins/skin-yellow.min.css",
+      "PackagePath": "staticwebassets/themes/dist/css/skins/skin-yellow.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/avatar.png",
+      "PackagePath": "staticwebassets/themes/dist/img/avatar.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/avatar04.png",
+      "PackagePath": "staticwebassets/themes/dist/img/avatar04.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/avatar2.png",
+      "PackagePath": "staticwebassets/themes/dist/img/avatar2.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/avatar3.png",
+      "PackagePath": "staticwebassets/themes/dist/img/avatar3.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/avatar5.png",
+      "PackagePath": "staticwebassets/themes/dist/img/avatar5.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/credit/american-express.png",
+      "PackagePath": "staticwebassets/themes/dist/img/credit/american-express.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/credit/cirrus.png",
+      "PackagePath": "staticwebassets/themes/dist/img/credit/cirrus.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/credit/mastercard.png",
+      "PackagePath": "staticwebassets/themes/dist/img/credit/mastercard.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/credit/mestro.png",
+      "PackagePath": "staticwebassets/themes/dist/img/credit/mestro.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/credit/paypal.png",
+      "PackagePath": "staticwebassets/themes/dist/img/credit/paypal.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/credit/paypal2.png",
+      "PackagePath": "staticwebassets/themes/dist/img/credit/paypal2.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/credit/visa.png",
+      "PackagePath": "staticwebassets/themes/dist/img/credit/visa.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/default-50x50.gif",
+      "PackagePath": "staticwebassets/themes/dist/img/default-50x50.gif"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/icons.png",
+      "PackagePath": "staticwebassets/themes/dist/img/icons.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/photo1.png",
+      "PackagePath": "staticwebassets/themes/dist/img/photo1.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/photo2.png",
+      "PackagePath": "staticwebassets/themes/dist/img/photo2.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/photo3.jpg",
+      "PackagePath": "staticwebassets/themes/dist/img/photo3.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/photo4.jpg",
+      "PackagePath": "staticwebassets/themes/dist/img/photo4.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/user1-128x128.jpg",
+      "PackagePath": "staticwebassets/themes/dist/img/user1-128x128.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/user2-160x160.jpg",
+      "PackagePath": "staticwebassets/themes/dist/img/user2-160x160.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/user3-128x128.jpg",
+      "PackagePath": "staticwebassets/themes/dist/img/user3-128x128.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/user4-128x128.jpg",
+      "PackagePath": "staticwebassets/themes/dist/img/user4-128x128.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/user5-128x128.jpg",
+      "PackagePath": "staticwebassets/themes/dist/img/user5-128x128.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/user6-128x128.jpg",
+      "PackagePath": "staticwebassets/themes/dist/img/user6-128x128.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/user7-128x128.jpg",
+      "PackagePath": "staticwebassets/themes/dist/img/user7-128x128.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/img/user8-128x128.jpg",
+      "PackagePath": "staticwebassets/themes/dist/img/user8-128x128.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/js/adminlte.js",
+      "PackagePath": "staticwebassets/themes/dist/js/adminlte.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/js/adminlte.min.js",
+      "PackagePath": "staticwebassets/themes/dist/js/adminlte.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/js/demo.js",
+      "PackagePath": "staticwebassets/themes/dist/js/demo.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/js/pages/dashboard.js",
+      "PackagePath": "staticwebassets/themes/dist/js/pages/dashboard.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/dist/js/pages/dashboard2.js",
+      "PackagePath": "staticwebassets/themes/dist/js/pages/dashboard2.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/carousel-1.jpg",
+      "PackagePath": "staticwebassets/themes/img/carousel-1.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/carousel-2.jpg",
+      "PackagePath": "staticwebassets/themes/img/carousel-2.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/cat-1.jpg",
+      "PackagePath": "staticwebassets/themes/img/cat-1.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/cat-2.jpg",
+      "PackagePath": "staticwebassets/themes/img/cat-2.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/cat-3.jpg",
+      "PackagePath": "staticwebassets/themes/img/cat-3.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/cat-4.jpg",
+      "PackagePath": "staticwebassets/themes/img/cat-4.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/cat-5.jpg",
+      "PackagePath": "staticwebassets/themes/img/cat-5.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/cat-6.jpg",
+      "PackagePath": "staticwebassets/themes/img/cat-6.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/offer-1.png",
+      "PackagePath": "staticwebassets/themes/img/offer-1.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/offer-2.png",
+      "PackagePath": "staticwebassets/themes/img/offer-2.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/payments.png",
+      "PackagePath": "staticwebassets/themes/img/payments.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/product-1.jpg",
+      "PackagePath": "staticwebassets/themes/img/product-1.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/product-2.jpg",
+      "PackagePath": "staticwebassets/themes/img/product-2.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/product-3.jpg",
+      "PackagePath": "staticwebassets/themes/img/product-3.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/product-4.jpg",
+      "PackagePath": "staticwebassets/themes/img/product-4.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/product-5.jpg",
+      "PackagePath": "staticwebassets/themes/img/product-5.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/product-6.jpg",
+      "PackagePath": "staticwebassets/themes/img/product-6.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/product-7.jpg",
+      "PackagePath": "staticwebassets/themes/img/product-7.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/product-8.jpg",
+      "PackagePath": "staticwebassets/themes/img/product-8.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/user.jpg",
+      "PackagePath": "staticwebassets/themes/img/user.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/vendor-1.jpg",
+      "PackagePath": "staticwebassets/themes/img/vendor-1.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/vendor-2.jpg",
+      "PackagePath": "staticwebassets/themes/img/vendor-2.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/vendor-3.jpg",
+      "PackagePath": "staticwebassets/themes/img/vendor-3.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/vendor-4.jpg",
+      "PackagePath": "staticwebassets/themes/img/vendor-4.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/vendor-5.jpg",
+      "PackagePath": "staticwebassets/themes/img/vendor-5.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/vendor-6.jpg",
+      "PackagePath": "staticwebassets/themes/img/vendor-6.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/vendor-7.jpg",
+      "PackagePath": "staticwebassets/themes/img/vendor-7.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/img/vendor-8.jpg",
+      "PackagePath": "staticwebassets/themes/img/vendor-8.jpg"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/index.html",
+      "PackagePath": "staticwebassets/themes/index.html"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/js/main.js",
+      "PackagePath": "staticwebassets/themes/js/main.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/easing/easing.js",
+      "PackagePath": "staticwebassets/themes/lib/easing/easing.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/easing/easing.min.js",
+      "PackagePath": "staticwebassets/themes/lib/easing/easing.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/owlcarousel/LICENSE",
+      "PackagePath": "staticwebassets/themes/lib/owlcarousel"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/owlcarousel/assets/ajax-loader.gif",
+      "PackagePath": "staticwebassets/themes/lib/owlcarousel/assets/ajax-loader.gif"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/owlcarousel/assets/owl.carousel.css",
+      "PackagePath": "staticwebassets/themes/lib/owlcarousel/assets/owl.carousel.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/owlcarousel/assets/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/themes/lib/owlcarousel/assets/owl.carousel.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/owlcarousel/assets/owl.theme.default.css",
+      "PackagePath": "staticwebassets/themes/lib/owlcarousel/assets/owl.theme.default.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/owlcarousel/assets/owl.theme.default.min.css",
+      "PackagePath": "staticwebassets/themes/lib/owlcarousel/assets/owl.theme.default.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/owlcarousel/assets/owl.theme.green.css",
+      "PackagePath": "staticwebassets/themes/lib/owlcarousel/assets/owl.theme.green.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/owlcarousel/assets/owl.theme.green.min.css",
+      "PackagePath": "staticwebassets/themes/lib/owlcarousel/assets/owl.theme.green.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/owlcarousel/assets/owl.video.play.png",
+      "PackagePath": "staticwebassets/themes/lib/owlcarousel/assets/owl.video.play.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/owlcarousel/owl.carousel.js",
+      "PackagePath": "staticwebassets/themes/lib/owlcarousel/owl.carousel.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/lib/owlcarousel/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/themes/lib/owlcarousel/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/mail/contact.js",
+      "PackagePath": "staticwebassets/themes/mail/contact.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/mail/contact.php",
+      "PackagePath": "staticwebassets/themes/mail/contact.php"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/mail/jqBootstrapValidation.min.js",
+      "PackagePath": "staticwebassets/themes/mail/jqBootstrapValidation.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/bootstrap-slider/bootstrap-slider.js",
+      "PackagePath": "staticwebassets/themes/plugins/bootstrap-slider/bootstrap-slider.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/bootstrap-slider/slider.css",
+      "PackagePath": "staticwebassets/themes/plugins/bootstrap-slider/slider.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js",
+      "PackagePath": "staticwebassets/themes/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js",
+      "PackagePath": "staticwebassets/themes/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css",
+      "PackagePath": "staticwebassets/themes/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css",
+      "PackagePath": "staticwebassets/themes/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/all.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/all.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/_all.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/_all.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/aero.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/aero.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/aero.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/aero.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/aero@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/aero@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/blue.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/blue.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/blue.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/blue.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/blue@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/blue@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/flat.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/flat.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/flat.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/flat.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/flat@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/flat@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/green.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/green.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/green.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/green.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/green@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/green@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/grey.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/grey.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/grey.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/grey.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/grey@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/grey@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/orange.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/orange.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/orange.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/orange.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/orange@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/orange@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/pink.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/pink.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/pink.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/pink.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/pink@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/pink@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/purple.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/purple.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/purple.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/purple.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/purple@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/purple@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/red.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/red.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/red.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/red.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/red@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/red@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/yellow.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/yellow.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/yellow.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/yellow.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/flat/yellow@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/flat/yellow@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/futurico/futurico.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/futurico/futurico.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/futurico/futurico.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/futurico/futurico.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/futurico/futurico@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/futurico/futurico@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/icheck.js",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/icheck.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/icheck.min.js",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/icheck.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/_all.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/_all.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/aero.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/aero.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/blue.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/blue.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/green.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/green.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/grey.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/grey.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/line.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/line.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/line.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/line.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/line@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/line@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/orange.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/orange.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/pink.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/pink.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/purple.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/purple.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/red.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/red.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/line/yellow.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/line/yellow.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/_all.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/_all.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/aero.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/aero.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/aero.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/aero.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/aero@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/aero@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/blue.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/blue.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/blue.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/blue.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/blue@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/blue@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/green.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/green.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/green.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/green.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/green@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/green@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/grey.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/grey.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/grey.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/grey.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/grey@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/grey@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/minimal.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/minimal.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/minimal.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/minimal.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/minimal@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/minimal@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/orange.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/orange.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/orange.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/orange.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/orange@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/orange@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/pink.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/pink.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/pink.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/pink.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/pink@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/pink@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/purple.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/purple.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/purple.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/purple.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/purple@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/purple@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/red.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/red.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/red.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/red.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/red@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/red@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/yellow.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/yellow.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/yellow.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/yellow.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/minimal/yellow@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/minimal/yellow@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/polaris/polaris.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/polaris/polaris.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/polaris/polaris.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/polaris/polaris.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/polaris/polaris@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/polaris/polaris@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/_all.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/_all.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/aero.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/aero.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/aero.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/aero.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/aero@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/aero@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/blue.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/blue.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/blue.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/blue.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/blue@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/blue@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/green.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/green.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/green.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/green.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/green@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/green@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/grey.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/grey.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/grey.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/grey.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/grey@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/grey@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/orange.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/orange.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/orange.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/orange.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/orange@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/orange@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/pink.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/pink.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/pink.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/pink.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/pink@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/pink@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/purple.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/purple.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/purple.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/purple.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/purple@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/purple@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/red.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/red.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/red.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/red.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/red@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/red@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/square.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/square.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/square.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/square.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/square@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/square@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/yellow.css",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/yellow.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/yellow.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/yellow.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/iCheck/square/yellow@2x.png",
+      "PackagePath": "staticwebassets/themes/plugins/iCheck/square/yellow@2x.png"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/input-mask/jquery.inputmask.date.extensions.js",
+      "PackagePath": "staticwebassets/themes/plugins/input-mask/jquery.inputmask.date.extensions.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/input-mask/jquery.inputmask.extensions.js",
+      "PackagePath": "staticwebassets/themes/plugins/input-mask/jquery.inputmask.extensions.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/input-mask/jquery.inputmask.js",
+      "PackagePath": "staticwebassets/themes/plugins/input-mask/jquery.inputmask.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/input-mask/jquery.inputmask.numeric.extensions.js",
+      "PackagePath": "staticwebassets/themes/plugins/input-mask/jquery.inputmask.numeric.extensions.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/input-mask/jquery.inputmask.phone.extensions.js",
+      "PackagePath": "staticwebassets/themes/plugins/input-mask/jquery.inputmask.phone.extensions.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/input-mask/jquery.inputmask.regex.extensions.js",
+      "PackagePath": "staticwebassets/themes/plugins/input-mask/jquery.inputmask.regex.extensions.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/input-mask/phone-codes/phone-be.json",
+      "PackagePath": "staticwebassets/themes/plugins/input-mask/phone-codes/phone-be.json"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/input-mask/phone-codes/phone-codes.json",
+      "PackagePath": "staticwebassets/themes/plugins/input-mask/phone-codes/phone-codes.json"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/input-mask/phone-codes/readme.txt",
+      "PackagePath": "staticwebassets/themes/plugins/input-mask/phone-codes/readme.txt"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/jQueryUI/jquery-ui.js",
+      "PackagePath": "staticwebassets/themes/plugins/jQueryUI/jquery-ui.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/jQueryUI/jquery-ui.min.js",
+      "PackagePath": "staticwebassets/themes/plugins/jQueryUI/jquery-ui.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/jvectormap/jquery-jvectormap-1.2.2.css",
+      "PackagePath": "staticwebassets/themes/plugins/jvectormap/jquery-jvectormap-1.2.2.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js",
+      "PackagePath": "staticwebassets/themes/plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/jvectormap/jquery-jvectormap-usa-en.js",
+      "PackagePath": "staticwebassets/themes/plugins/jvectormap/jquery-jvectormap-usa-en.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/jvectormap/jquery-jvectormap-world-mill-en.js",
+      "PackagePath": "staticwebassets/themes/plugins/jvectormap/jquery-jvectormap-world-mill-en.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/pace/pace.css",
+      "PackagePath": "staticwebassets/themes/plugins/pace/pace.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/pace/pace.js",
+      "PackagePath": "staticwebassets/themes/plugins/pace/pace.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/pace/pace.min.css",
+      "PackagePath": "staticwebassets/themes/plugins/pace/pace.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/pace/pace.min.js",
+      "PackagePath": "staticwebassets/themes/plugins/pace/pace.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/timepicker/bootstrap-timepicker.css",
+      "PackagePath": "staticwebassets/themes/plugins/timepicker/bootstrap-timepicker.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/timepicker/bootstrap-timepicker.js",
+      "PackagePath": "staticwebassets/themes/plugins/timepicker/bootstrap-timepicker.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/timepicker/bootstrap-timepicker.min.css",
+      "PackagePath": "staticwebassets/themes/plugins/timepicker/bootstrap-timepicker.min.css"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/plugins/timepicker/bootstrap-timepicker.min.js",
+      "PackagePath": "staticwebassets/themes/plugins/timepicker/bootstrap-timepicker.min.js"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_alert.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_alert.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_badge.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_badge.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_breadcrumb.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_breadcrumb.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_button-group.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_button-group.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_buttons.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_buttons.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_card.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_card.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_carousel.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_carousel.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_close.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_close.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_code.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_code.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_custom-forms.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_custom-forms.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_dropdown.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_dropdown.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_forms.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_forms.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_functions.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_functions.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_grid.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_grid.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_images.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_images.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_input-group.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_input-group.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_jumbotron.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_jumbotron.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_list-group.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_list-group.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_media.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_media.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_mixins.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_mixins.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_modal.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_modal.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_nav.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_nav.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_navbar.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_navbar.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_pagination.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_pagination.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_popover.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_popover.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_print.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_print.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_progress.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_progress.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_reboot.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_reboot.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_root.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_root.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_spinners.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_spinners.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_tables.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_tables.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_toasts.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_toasts.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_tooltip.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_tooltip.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_transitions.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_transitions.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_type.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_type.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_utilities.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_utilities.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/_variables.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/_variables.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/bootstrap-grid.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/bootstrap-grid.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/bootstrap-reboot.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/bootstrap-reboot.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/bootstrap.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/bootstrap.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_alert.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_alert.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_background-variant.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_background-variant.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_badge.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_badge.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_border-radius.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_border-radius.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_box-shadow.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_box-shadow.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_breakpoints.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_breakpoints.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_buttons.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_buttons.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_caret.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_caret.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_clearfix.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_deprecate.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_deprecate.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_float.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_float.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_forms.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_forms.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_gradients.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_gradients.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_grid-framework.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_grid-framework.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_grid.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_grid.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_hover.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_hover.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_image.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_image.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_list-group.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_list-group.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_lists.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_lists.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_nav-divider.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_nav-divider.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_pagination.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_pagination.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_reset-text.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_reset-text.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_resize.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_resize.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_screen-reader.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_screen-reader.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_size.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_size.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_table-row.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_table-row.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_text-emphasis.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_text-emphasis.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_text-hide.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_text-hide.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_text-truncate.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_text-truncate.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_transition.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_transition.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/mixins/_visibility.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/mixins/_visibility.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_align.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_align.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_background.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_background.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_borders.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_borders.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_clearfix.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_clearfix.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_display.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_display.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_embed.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_embed.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_flex.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_flex.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_float.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_float.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_interactions.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_interactions.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_overflow.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_overflow.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_position.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_position.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_screenreaders.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_screenreaders.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_shadows.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_shadows.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_sizing.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_sizing.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_spacing.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_spacing.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_stretched-link.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_stretched-link.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_text.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_text.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/utilities/_visibility.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/utilities/_visibility.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/bootstrap/scss/vendor/_rfs.scss",
+      "PackagePath": "staticwebassets/themes/scss/bootstrap/scss/vendor/_rfs.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/scss/style.scss",
+      "PackagePath": "staticwebassets/themes/scss/style.scss"
+    },
+    {
+      "Id": "/Users/phnlong/SV21T1020203/SV21T1020203.Shop/wwwroot/themes/shop.html",
+      "PackagePath": "staticwebassets/themes/shop.html"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.SV21T1020203.Shop.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.SV21T1020203.Shop.props",
+      "PackagePath": "build\\SV21T1020203.Shop.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.SV21T1020203.Shop.props",
+      "PackagePath": "buildMultiTargeting\\SV21T1020203.Shop.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.SV21T1020203.Shop.props",
+      "PackagePath": "buildTransitive\\SV21T1020203.Shop.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,26 @@
+@model SV21T1020203.DomainModels.Shipper
+<div class="box box-danger">
+  <div class="box-body">
+    <form action="~/Shipper/Delete/@Model.ShipperID" method="post">
+      <div class="form-group">
+        <label>Tên nhà cung cấp</label>
+        <p class="form-control-static">@Model.ShipperName</p>
+      </div>
+      <div class="form-group">
+        <label>Điện thoại</label>
+        <p class="form-control-static">@Model.Phone</p>
+      </div>
+      <div class="form-group text-right">
+        @if (!SV21T1020203.BusinessLayers.CommonDataService.InUsedShipper(Model.ShipperID))
+        {
+          <button type="submit" class="btn btn-danger">
+            <i class="fa fa-trash"></i> Xác nhận xoá
+          </button>
+        }
+        <a href="~/Shipper" class="btn btn-default">
+          Quay lại
+        </a>
+      </div>
+    </form>
+  </div>
+</div>

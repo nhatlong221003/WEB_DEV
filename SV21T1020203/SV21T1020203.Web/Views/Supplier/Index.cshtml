@@ -1,0 +1,57 @@
+@model SV21T1020203.Web.Models.PaginationSearchInput
+@{
+  ViewBag.Title = "Quản lý nhà cung cấp";
+}
+
+<div class="box box-primary">
+  <div class="box-body">
+    <!-- Form de nhap dau vao tim kiem-->
+    <form id="frmSearchInput" action="~/Supplier/Search" method="get">
+      <input type="hidden" name="@nameof(Model.PageSize)" value="@Model.PageSize" />
+      <div class="input-group">
+        <input type="text" name="@nameof(Model.SearchValue)" value="@Model.SearchValue" id="" class="form-control"
+          placeholder="Nhập tên nhà cung cấp cần tìm...">
+        <div class="input-group-btn">
+          <button class="btn btn-info">
+            <i class="fa fa-search"></i>
+          </button>
+          <a href="~/Supplier/Create" class="btn btn-primary" style="margin-left: 5px;">
+            <i class="fa fa-plus"></i> Bổ sung
+          </a>
+        </div>
+      </div>
+    </form>
+    <!--Hien thi ket qua tim kiem-->
+    <div id="searchResult">
+
+    </div>
+  </div>
+</div>
+
+
+@section scripts {
+  <script>
+    function doSearch(page) {
+      var searchCondition = $("#frmSearchInput").serializeArray();
+      searchCondition.push({ name: "page", value: page });
+
+      var action = $("#frmSearchInput").prop("action");
+      var method = $("#frmSearchInput").prop("method");
+      $.ajax({
+        url: action,
+        type: method,
+        data: searchCondition,
+        success: function (data) {
+          $("#searchResult").html(data);
+        }
+      });
+    }
+    $(document).ready(function () {
+      doSearch(@Model.Page);
+      $("#frmSearchInput").submit(function (e) {
+        e.preventDefault();
+        doSearch(1);
+      });
+    })
+  </script>
+}

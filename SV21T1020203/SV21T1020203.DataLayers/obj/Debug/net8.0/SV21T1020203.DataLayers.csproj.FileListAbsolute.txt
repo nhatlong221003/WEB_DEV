@@ -1,0 +1,15 @@
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/bin/Debug/net8.0/SV21T1020203.DataLayers.deps.json
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/bin/Debug/net8.0/SV21T1020203.DataLayers.dll
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/bin/Debug/net8.0/SV21T1020203.DataLayers.pdb
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/bin/Debug/net8.0/SV21T1020203.DomainModels.dll
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/bin/Debug/net8.0/SV21T1020203.DomainModels.pdb
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/obj/Debug/net8.0/SV21T1020203.DataLayers.csproj.AssemblyReference.cache
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/obj/Debug/net8.0/SV21T1020203.DataLayers.GeneratedMSBuildEditorConfig.editorconfig
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/obj/Debug/net8.0/SV21T1020203.DataLayers.AssemblyInfoInputs.cache
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/obj/Debug/net8.0/SV21T1020203.DataLayers.AssemblyInfo.cs
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/obj/Debug/net8.0/SV21T1020203.DataLayers.csproj.CoreCompileInputs.cache
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/obj/Debug/net8.0/SV21T102.34009ADA.Up2Date
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/obj/Debug/net8.0/SV21T1020203.DataLayers.dll
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/obj/Debug/net8.0/refint/SV21T1020203.DataLayers.dll
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/obj/Debug/net8.0/SV21T1020203.DataLayers.pdb
+/Users/phnlong/SV21T1020203/SV21T1020203.DataLayers/obj/Debug/net8.0/ref/SV21T1020203.DataLayers.dll

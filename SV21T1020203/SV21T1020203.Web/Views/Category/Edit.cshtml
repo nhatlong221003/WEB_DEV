@@ -1,0 +1,29 @@
+@model SV21T1020203.DomainModels.Category
+<div class="box box-primary">
+  <div class="box-body">
+    <form action="~/Category/Save" method="post">
+      <input type="hidden" name="@nameof(Model.CategoryID)" value="@Model.CategoryID" />
+      <div class="form-group">
+        <label>Tên loại hàng</label>
+        <input type="text" name="@nameof(Model.CategoryName)" value="@Model.CategoryName" class="form-control">
+        @Html.ValidationMessage(nameof(Model.CategoryName), new { @style = "color:#f00" })
+      </div>
+
+      <div class="form-group">
+        <label>Mô tả</label>
+        <input type="text" name="@nameof(Model.Description)" value="@Model.Description" class="form-control">
+        @Html.ValidationMessage(nameof(Model.Description), new { @style = "color:#f00" })
+
+      </div>
+      <div class="form-group text-right">
+        <button type="submit" class="btn btn-primary">
+          <i class="fa fa-floppy-o"></i> Lưu dữ liệu
+        </button>
+        <a href="~/Category" class="btn btn-default">
+          Quay lại
+        </a>
+      </div>
+      @Html.ValidationMessage("Error")
+    </form>
+  </div>
+</div>

@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>NL SHOP</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="~/themes/img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="~/themes/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="~/themes/css/style.css" rel="stylesheet">
+    <!-- Bootstrap 3.3.7 -->
+    <link rel="stylesheet" href="~/themes/bower_components/bootstrap/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+    @{
+        await Html.RenderPartialAsync("_Header");
+        await Html.RenderPartialAsync("_NavBar");
+    }
+    <!-- Products Start -->
+    @RenderBody()
+
+    <!-- Products End -->
+    @{
+        @* await Html.RenderPartialAsync("_Footer"); *@
+    }
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="~/themes/lib/easing/easing.min.js"></script>
+    <script src="~/themes/lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="~/themes/mail/jqBootstrapValidation.min.js"></script>
+    <script src="~/themes/mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="~/themes/js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.sidebar-menu').tree();
+            $('.date-picker').datepicker({
+                autoclose: true,
+                format: "dd/mm/yyyy"
+            });
+            $('.daterange-picker').daterangepicker({
+                locale: {
+                    format: 'DD/MM/YYYY'
+                }
+            });
+            $('.select2').select2();
+        })
+    </script>
+    @RenderSection("Scripts", false)
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+@model SV21T1020203.Web.Models.PaginationSearchInput
+@{
+  ViewBag.Title = "Quản lý nhân viên";
+}
+
+<div class="box box-primary">
+  <div class="box-body">
+    <!-- Form nhập đầu vào tìm kiếm-->
+    <form action="~/Employee/Search" id="frmSearchInput" method="get">
+      <input type="hidden" name="@nameof(Model.PageSize)" value="@Model.PageSize" />
+
+      <div class="input-group">
+        <input name="@nameof(Model.SearchValue)" value="@Model.SearchValue" type="text" class="form-control"
+          placeholder="Nhập tên nhân viên cần tìm" autofocus />
+        <div class="input-group-btn">
+          <button class="btn btn-info" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+          <a href="~/Employee/Create" class="btn btn-primary" style="margin-left:5px">
+            <i class="fa fa-plus"></i> Bổ sung
+          </a>
+        </div>
+      </div>
+    </form>
+
+    <!-- Hiển thị dữ liệu -->
+    <div id="searchResult">
+
+    </div>
+  </div>
+</div>
+
+@section scripts {
+  <script>
+    function doSearch(page) {
+      var searchCondition = $("#frmSearchInput").serializeArray();
+      searchCondition.push({ name: "page", value: page });
+
+      var action = $("#frmSearchInput").prop("action");
+      var method = $("#frmSearchInput").prop("method");
+      $.ajax({
+        url: action,
+        type: method,
+        data: searchCondition,
+        success: function (data) {
+          $("#searchResult").html(data);
+        }
+      });
+    }
+    $(document).ready(function () {
+      doSearch(@Model.Page);
+      $("#frmSearchInput").submit(function (e) {
+        e.preventDefault();
+        doSearch(1);
+      });
+    })
+  </script>
+}

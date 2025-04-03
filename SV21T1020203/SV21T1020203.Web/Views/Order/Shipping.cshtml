@@ -1,0 +1,45 @@
+﻿@model SV21T1020203.DomainModels.Order
+@{
+    Layout = null;
+}
+
+<div class="modal-dialog">
+    <div class="modal-content">
+        <form class="editDetailForm" action="~/Order/UpdateShipping" method="post">
+            <input type="hidden" class="form-control" name="@nameof(Model.OrderID)" value="@Model.OrderID">
+            <div class="modal-header bg-primary">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Chuyển giao hàng cho đơn hàng</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="control-label">Người giao hàng:</label>
+                    <select class="form-control" name="@nameof(Model.ShipperID)">
+                        <option value="0">-- Chọn người giao hàng ---</option>
+                        @foreach (var item in SV21T1020203.BusinessLayers.CommonDataService.ListOfShippers())
+                        {
+                            if (item.ShipperID == Model.ShipperID)
+                            {
+                                <option value="@item.ShipperID" selected>@item.ShipperName</option>
+                            }
+                            else
+                            {
+                                <option value="@item.ShipperID">@item.ShipperName</option>
+                            }
+                        }
+                    </select>
+                </div>
+                @Html.ValidationMessage(nameof(Model.ShipperID), new { @style = "color:#f00" })
+
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn btn-primary">
+                    <i class="fa fa-floppy-o"></i> Cập nhật
+                </button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">
+                    Bỏ qua
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
